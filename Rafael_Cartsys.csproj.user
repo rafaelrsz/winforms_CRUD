@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\rafar\source\repos\Rafael_Cartsys\Rafael_Cartsys\Properties\PublishProfiles\ClickOnceProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="src\Panels\PersonPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="src\Panels\HomePanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="src\UserControls\Login.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="src\UserControls\PersonsPerAge.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="src\UserControls\Pessoas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="src\UserControls\Register.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="CartsysCRUDDataSet.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+</Project>
